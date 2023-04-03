@@ -1,1 +1,3 @@
 # Blossoming-Benevolence
+
+The following video game is a contemporary queer coming out romance visual novel about a character who rejects a love confession from someone of the opposite gender and from this begins their journey of self discovery. The main themes that will be addressed in this work are mainly, queerness and romance in teenagers, queer self-expression and coming out, how the actions we make have consequences, and personal growth through those that surround you and self-reflection. The goal in creating this video game is to visually depict one’s initial discovery of their queerness and how they choose to explore it through the people that surround them and how they express themselves romantically when you catch feelings for another. 
