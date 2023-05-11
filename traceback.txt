@@ -1,0 +1,36 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 294, in script
+    pause sound
+  File "renpy/common/000statements.rpy", line 449, in execute_pause
+    delay = eval(p["delay"])
+  File "game/script.rpy", line 294, in <module>
+    pause sound
+NameError: name 'sound' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 294, in script
+    pause sound
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 449, in execute_pause
+    delay = eval(p["delay"])
+  File "renpy/python.py", line 2276, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "renpy/python.py", line 2269, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 294, in <module>
+    pause sound
+NameError: name 'sound' is not defined
+
+Windows-10-10.0.22621
+Ren'Py 7.4.11.2266
+Blossoming Self 1.0
+Sun May  7 12:57:58 2023
